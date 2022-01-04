@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jphani787/crud-api/issues"
   },
-  "homepage": "https://github.com/jphani787/crud-api#readme"
+  "homepage": "https://github.com/jphani787/crud-api#readme",
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1049.0"
+  }
 }
