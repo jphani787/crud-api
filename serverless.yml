@@ -1,10 +1,10 @@
-service: s3-file-upload
+service: s3-file-uploadertwo
 
 provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  region: us-east-1
+  region: us-west-1
 
 custom:
   fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
@@ -13,9 +13,9 @@ plugins:
   - serverless-iam-roles-per-function
 
 functions:
-  s3FileUploader:
+  s3FileUploadertwo:
     handler: src/upload.handler
-    name: s3-file-uploader
+    name: s3-file-uploadertwo
     description: A lambda handler that uploads a file to an S3 bucket based on an API Gateway trigger.
     timeout: 60 # seconds
     memorySize: 128 # mb
