@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jphani787/crud-api#readme",
   "devDependencies": {
-    "serverless-iam-roles-per-function": "^3.2.0"
+    "serverless-iam-roles-per-function": "^3.2.0-e97ab49"
   },
   "dependencies": {
     "aws-sdk": "^2.1049.0"
